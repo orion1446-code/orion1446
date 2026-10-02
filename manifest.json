@@ -1,0 +1,26 @@
+{
+  "id": "./index.html",
+  "name": "앵커사업 운영매뉴얼",
+  "short_name": "앵커매뉴얼",
+  "description": "전남과학대학교 앵커사업단 2026년 운영지침 업무 매뉴얼 (교내용)",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./index.html#/",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f3f5f9",
+  "theme_color": "#173a6b",
+  "categories": ["education", "productivity", "business"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "집행 기준 조회", "short_name": "집행 기준", "url": "./index.html#/criteria", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "서식 센터", "short_name": "서식", "url": "./index.html#/forms", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "검색", "short_name": "검색", "url": "./index.html#/search/", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
